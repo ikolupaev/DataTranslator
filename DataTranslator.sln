@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTranslator", "DataTranslator\DataTranslator.vcxproj", "{C2DFB012-3E60-4175-815F-50E8C491982F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataGenerator", "DataGenerator\DataGenerator.vcxproj", "{E3ECC42A-2197-4D58-8A62-2BE3BF152A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DFB012-3E60-4175-815F-50E8C491982F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2DFB012-3E60-4175-815F-50E8C491982F}.Debug|Win32.Build.0 = Debug|Win32
+		{C2DFB012-3E60-4175-815F-50E8C491982F}.Release|Win32.ActiveCfg = Release|Win32
+		{C2DFB012-3E60-4175-815F-50E8C491982F}.Release|Win32.Build.0 = Release|Win32
+		{E3ECC42A-2197-4D58-8A62-2BE3BF152A0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3ECC42A-2197-4D58-8A62-2BE3BF152A0F}.Debug|Win32.Build.0 = Debug|Win32
+		{E3ECC42A-2197-4D58-8A62-2BE3BF152A0F}.Release|Win32.ActiveCfg = Release|Win32
+		{E3ECC42A-2197-4D58-8A62-2BE3BF152A0F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
