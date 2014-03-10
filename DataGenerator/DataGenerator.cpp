@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	if (argc < 4)
 	{
 		std::cout << "usage:" << std::endl;
-		std::cout << "\ttest.exe <path> <columns_number> <rows_number>" << std::endl;
+		std::cout << "\tDataGenerator.exe <path_and_filename> <columns_number> <rows_number>" << std::endl;
 	
 		return 1;
 	}
@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
 			std::cout << i << std::endl;
 		}
 
-		of << "ID3";
+		of << "ID" << i % 4;
 
 		for (size_t i = 1; i < columns_number; i++)
 		{
