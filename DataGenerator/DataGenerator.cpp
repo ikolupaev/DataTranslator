@@ -1,9 +1,9 @@
 #include <fstream>
 #include <string>
 #include <iostream>
-#include <tchar.h>
+#include <cstdlib>
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 	if (argc < 4)
 	{
@@ -15,8 +15,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	std::ofstream of(argv[1]);
 
-	size_t columns_number = _wtoi(argv[2]);
-	size_t rows_number = _wtoi(argv[3]);
+	size_t columns_number = atoi(argv[2]);
+	size_t rows_number = atoi(argv[3]);
 
 	of << "COL0";
 
